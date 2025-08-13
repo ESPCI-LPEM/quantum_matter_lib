@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "quantum_matter_lib"
+version = "0.1"
+dependencies = [
+    "pymeasure",
+    "numpy",
+    "MCL",
+    "nanonisTCP"
+]
+
+[tool.setuptools]
+py-modules = ['quantum_matter_lib']
+
+[tool.setuptools.package-data]
+quantum_matter_lib = ['data']
