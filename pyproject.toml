@@ -23,7 +23,8 @@ license-files = ["LICENCE"]
 [project.optional-dependencies]
 dev = [
     "sphinx",
-    "sphinx-pyproject"
+    "sphinx-pyproject",
+    "ghp-import"
 ]
 
 [tool.setuptools]
