@@ -14,7 +14,8 @@ dependencies = [
     "pymeasure",
     "numpy",
     "MCL",
-    "nanonisTCP"
+    "nanonisTCP",
+    "pyvisa"
 ]
 readme = "README.md"
 license = "GPL-3.0-only"
@@ -23,8 +24,10 @@ license-files = ["LICENCE"]
 [project.optional-dependencies]
 dev = [
     "sphinx",
-    "sphinx-pyproject",
-    "ghp-import"
+    "sphinx-pyproject"
+]
+gui = [
+    "pyqt6"
 ]
 
 [tool.setuptools]
@@ -40,3 +43,6 @@ extensions = [
     "sphinx.ext.mathjax"
 ]
 html_theme = "classic"
+
+[project.scripts]
+thermometry-ui = "quantum_matter_lib.gui.thermometry_ui:run"
