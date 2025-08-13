@@ -8,6 +8,7 @@ test_env/
 # Build
 dist/
 *.egg-info/
+build/
 
 # Python
 __pycache__
