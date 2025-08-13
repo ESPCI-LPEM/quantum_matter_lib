@@ -8,4 +8,6 @@ Authors:
 
 ## Modules
 
-TODO
+### Thermometry
+
+Conversion from resistance to temperature using polynomial fit for ruo2 resistance.

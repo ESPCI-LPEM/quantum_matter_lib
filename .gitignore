@@ -1,0 +1,13 @@
+# Virtual env
+env/
+test_env/
+
+# IDE
+.vscode
+
+# Build
+dist/
+*.egg-info/
+
+# Python
+__pycache__
